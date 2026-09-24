@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/teamrabb/cybertestinglab.teamrabbil.com/
+    - export DEPLOYPATH=/home/teamrabb/cybertestinglab/
     - /bin/bash deploy.sh
