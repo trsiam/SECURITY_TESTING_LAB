@@ -2,15 +2,5 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/teamrabb/cybertestinglab/
-
-    - /bin/cp -R config $DEPLOYPATH
-    - /bin/cp -R sql-injection $DEPLOYPATH
-    - /bin/cp -R xss $DEPLOYPATH
-    - /bin/cp -R csrf $DEPLOYPATH
-    - /bin/cp -R lfi $DEPLOYPATH
-    - /bin/cp -R rfi $DEPLOYPATH
-    - /bin/cp -R cors $DEPLOYPATH
-    - /bin/cp -R cookie $DEPLOYPATH
-    - /bin/cp -R redirect $DEPLOYPATH
-
-    - /bin/cp index.php $DEPLOYPATH
+    - /bin/cp -R . $DEPLOYPATH
+    - /bin/rm -rf $DEPLOYPATH/.git
