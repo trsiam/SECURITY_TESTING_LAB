@@ -1,7 +1,7 @@
 #!/bin/bash
 
 SOURCE="$(pwd)/"
-DEST="/home/teamrabb/cybertestinglab/"
+DEST="/home/teamrabb/cybertestinglab.teamrabbil.com/"
 
 rsync -av --delete \
   --exclude='.git/' \
